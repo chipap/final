@@ -1,0 +1,104 @@
+.maincontainerAlign{
+margin-top: 60px;
+}
+
+#flash_error {
+    background-color: #FCC;
+    border: solid 1px #C66;
+}
+
+.navbar .chipapbrand {
+float: left;
+display: block;
+padding: 5px 20px 5px;
+margin-right: 20px;
+margin-left: -10px;
+font-size: 20px;
+font-weight: 400;
+color: #FFF;
+}
+
+    #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 		margin-left:5px;
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+
+
+
+    .business-title {
+        display: inline;
+        margin:0;
+    }
+
+    .business-title a {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+  .itemdetails {
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0 0 5px;
+  }
+
+  #amenities li {
+    display: inline-block;
+    list-style-type: none;
+    width:125px;
+    font-size: 12px;
+}
+
+
+    .verified {
+
+        line-height:8px;
+    }
+
+    .icon-check-sign {
+    color: #F78D3F;
+}
+
+    .icon-heart {
+        color: #b94a48;
+    }
+
+    .hr_separator {
+        margin: 5px 5px;
+    }
+
+    .row-margin {
+        margin-top:10px;
+    }
